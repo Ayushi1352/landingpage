@@ -19,7 +19,7 @@ const Footer = () => {
            
                 <div>
                     <div className="flex items-center gap-3 mb-6">
-                       <img src='src/assets/Kds logo 2.png'></img>
+                       <img src='/techno/kushilogo.png' alt="Kushel Digi Logo" />
                        
                        
                     </div>

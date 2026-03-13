@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="bg-white pt-5 pb-5 px-6 md:px-16 py-3 absolute top-0 left-0 w-full  z-50 border-b border-gray-100 font-Wix Madefor Display">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <div className="flex items-center">
-                    <img src='/src/assets/Kds logo 1.png' alt="Kushel Digi Logo" className="h-15 md:h-16" />
+                    <img src='/techno/kushilogo.png' alt="Kushel Digi Logo" className="h-15 md:h-16" />
                 </div>
 
                 <div className="hidden md:flex items-center gap-20">
