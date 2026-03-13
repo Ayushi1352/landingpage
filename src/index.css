@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-wix: "Wix Madefor Display", sans-serif;
+    --color-brand-blue: #3B82F6;
+    --color-brand-blue-light: #60A5FA;
+    --color-brand-teal-start: #0a4d52;
+    --color-brand-teal-end: #073539;
+    --color-brand-dark: #000000;
+    --color-service-bg-start: #5A5E82;
+    --color-service-bg-end: #3F445C;
+    --color-yellow-highlight: #FFD700;
+}
+
+@layer base {
+    body {
+        @apply font-wix m-0 antialiased bg-white text-gray-900;
+    }
+}
+
+@utility bg-dotted {
+    background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+@utility service-card-bg {
+    background: linear-gradient(180deg, #55507F 0%, #515766 100%);
+}
+
+@utility service-card-border {
+    border: 2px solid;
+    border-image-source: radial-gradient(80.38% 222.5% at -13.75% -12.36%, #98F9FF 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(80.69% 208.78% at 108.28% 112.58%, rgba(11, 96, 255, 0.2) 0%, rgba(11, 96, 255, 0.2) 100%);
+    border-image-slice: 1;
+}
+
+@utility service-card-gradient {
+    background: linear-gradient(145deg, #4B516D, #3F445C);
+}
+
+@utility animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+@utility animate-marquee-left {
+    animation: marquee-left 30s linear infinite;
+}
+
+@utility animate-marquee-right {
+    animation: marquee-right 30s linear infinite;
+}
+
+@utility marquee-mask {
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes marquee-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes marquee-right {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
