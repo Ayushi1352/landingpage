@@ -81,9 +81,7 @@ export default function WhyChoose() {
               </div>
 
            
-              {/* {(index + 1) % 3 !== 0 && (
-                <div className="hidden lg:block absolute top-5 -right-6 w-12 border-t-2 border-dotted border-[#2563EB]/40"></div>
-              )} */}
+
             </div>
           ))}
         </div>

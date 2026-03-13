@@ -10,7 +10,7 @@ import OurProcess from "./component/OurProcess.jsx";
 import Discover from "./component/Discover.jsx";
 import FeaturedClients from "./component/FeaturedClients.jsx";
 import Testimonials from "./component/Testimonials.jsx";
-import ContactSection from "./component/contact.jsx";
+import ContactSection from "./component/Contact.jsx";
 import Footer from "./component/Footer.jsx";
 
 

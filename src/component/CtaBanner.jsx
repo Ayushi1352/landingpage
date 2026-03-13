@@ -14,18 +14,18 @@ const CtaBanner = () => {
                     We're here to help turn your entrepreneurial dreams into reality, quickly and
                     efficiently. Share your needs with us and let's get started!
                 </p>
-                <button className="flex bg-white text-[#0D1B4B] items-center gap-2 border-[1.5px] border-white px-8 py-3 rounded-full text-[12px] font-[800] tracking-widest cursor-pointer transition-all">
+                <button className="flex bg-white text-[#3464FD] items-center gap-2 border-[1.5px] border-white px-4 py-4 rounded-full text-[17px] font-[600] font-Wix Madefor Display cursor-pointer transition-all">
                     LET'S GET STARTED <FiArrowRight className="text-[16px]" />
                 </button>
             </div>
 
-
-            {/* Left Background Pattern */}
+   
+        
             <div className="absolute left-0 top-0 h-full w-[200px] md:w-[280px] lg:w-[350px] pointer-events-none">
                 <img src="/cta/netleft.png" alt="pattern left" className="w-full h-full object-cover" />
             </div>
 
-            {/* Right Background Pattern */}
+           
             <div className="absolute right-0 top-0 h-full w-[200px] md:w-[280px] lg:w-[350px] pointer-events-none">
                 <img src="/cta/netright.png" alt="pattern right" className="w-full h-full object-cover" />
             </div>
